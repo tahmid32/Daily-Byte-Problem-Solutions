@@ -4,7 +4,6 @@ Given a string, return whether or not it forms a palindrome ignoring case and no
 
 Note: a palindrome is a sequence of characters that reads the same forwards and backwards. 
 
-
 Ex: Given the following strings...
 
 
