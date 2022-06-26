@@ -6,5 +6,4 @@ def correct_capitalization(str):
             return True
         else:
             return False
-            
-print(correct_capitalization("coding"))
+           
