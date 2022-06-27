@@ -4,7 +4,7 @@ def vacuum_cleaner(str):
     for char in str:
         direction_dict[char] += 1
     
-    if ((direction_dict['L'] == direction_dict['R']) and (direction_dict['U'] == direction_dict['D'])):
-        return 'True'
-    else:
-        return 'False'
+    if ((direction_dict['L'] != direction_dict['R']) or (direction_dict['U'] != direction_dict['D'])):
+        return False
+    
+    return True
