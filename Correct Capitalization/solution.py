@@ -1,9 +1,7 @@
 def correct_capitalization(str):
-    if (str.isupper() == True):
-        return True
-    else:
-        if (str[1:].islower() == True):
-            return True
-        else:
+    if (str.isupper() == False):
+        if (str[1:].islower() == False):
             return False
+     
+    return True
            
