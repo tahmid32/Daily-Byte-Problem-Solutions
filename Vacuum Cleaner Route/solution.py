@@ -10,8 +10,7 @@ def vacuum_cleaner(str):
         elif (char == 'D'):
             sum += -1
             
-    if (sum == 0):
-        return 'True'
-    else:
-        return 'False'
-            
+    if (sum != 0):
+        return False
+    
+    return True
