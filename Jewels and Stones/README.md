@@ -5,5 +5,7 @@ Given a string representing your stones and another string representing a list o
 Ex: Given the following jewels and stones...
 
 jewels = "abc", stones = "ac", return 2
+
 jewels = "Af", stones = "AaaddfFf", return 3
+
 jewels = "AYOPD", stones = "ayopd", return 0
