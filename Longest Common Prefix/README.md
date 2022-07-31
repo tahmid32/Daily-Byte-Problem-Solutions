@@ -6,5 +6,7 @@ Note: you may assume all strings only contain lowercase alphabetical characters.
 Ex: Given the following arrays...
 
 ["colorado", "color", "cold"], return "col"
+
 ["a", "b", "c"], return ""
+
 ["spot", "spotty", "spotted"], return "spot"
